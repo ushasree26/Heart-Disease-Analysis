@@ -65,3 +65,6 @@ The Tableau Story presents the analysis as a structured visual journey:
 🩺 Medical condition correlation (Diabetes & Stroke)
 📈 Population health comparison (Race & General Health)
 ❤️ Identification of high-risk segments
+
+LIVE APPLICATION 
+https://heart-disease-analysis-a9qo.onrender.com/
