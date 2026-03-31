@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Prediction Result</title>
+
+<style>
+
+body{
+font-family:Segoe UI;
+background:linear-gradient(to right,#ffffff,#e8ecff);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.result-box{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 0 20px rgba(0,0,0,0.15);
+text-align:center;
+width:450px;
+}
+
+h1{
+color:#1f3c88;
+margin-bottom:20px;
+}
+
+.result{
+font-size:26px;
+font-weight:bold;
+margin:25px 0;
+}
+
+.high{
+color:red;
+}
+
+.low{
+color:green;
+}
+
+button{
+margin-top:20px;
+padding:12px 25px;
+background:#1f3c88;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#162d66;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="result-box">
+
+<h1>Heart Disease Prediction Result</h1>
+
+<div class="result 
+{% if 'High' in prediction %} high {% else %} low {% endif %}">
+{{ prediction }}
+</div>
+
+<a href="/">
+<button>Back to Home</button>
+</a>
+
+</div>
+
+</body>
+</html>

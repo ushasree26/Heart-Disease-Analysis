@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Us | Heart Disease Analysis</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    background:#f4f6fb;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:#1f3c88;
+    padding:18px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar h2{
+    color:white;
+}
+
+.navbar a{
+    color:white;
+    margin-left:25px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.navbar a:hover{
+    border-bottom:2px solid white;
+}
+
+/* CONTACT SECTION */
+
+.contact-container{
+    min-height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px;
+    background:linear-gradient(to right,#ffffff,#e8ecff);
+}
+
+.contact-box{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+    width:420px;
+}
+
+.contact-box h1{
+    text-align:center;
+    color:#1f3c88;
+    margin-bottom:25px;
+}
+
+.contact-box input,
+.contact-box textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    outline:none;
+}
+
+.contact-box textarea{
+    resize:none;
+    height:100px;
+}
+
+.contact-box button{
+    width:100%;
+    padding:12px;
+    background:#1f3c88;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.contact-box button:hover{
+    background:#162d66;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#1f3c88;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+<h2>Heart Disease Analysis</h2>
+
+<div>
+
+<a href="/about">About</a>
+<a href="/dashboard">Dashboard</a>
+<a href="/story">Story</a>
+<a href="/contact">Contact</a>
+</div>
+</div>
+
+<!-- CONTACT FORM -->
+
+<div class="contact-container">
+
+<div class="contact-box">
+
+<h1>Contact Us</h1>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message" required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer">
+© 2026 | Heart Disease Analysis |
+</div>
+
+</body>
+</html>
